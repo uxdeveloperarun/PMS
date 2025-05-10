@@ -2,7 +2,7 @@ import { GalleryVerticalEnd } from "lucide-react"
 
 import { LoginForm } from "@/components/login-form"
 import Image from 'next/image'
-import BGlogin from "@/app/assets/bg-login.jpg"
+import BGlogin from "@/app/assets/bg-login.svg"
 import Logo from "@/app/assets/pms-logo.png"
 
 export default function LoginPage() {
@@ -25,7 +25,7 @@ export default function LoginPage() {
           </div>
         </div>
       </div>
-      <div className="bg-muted relative hidden lg:block">
+      <div className="bg-primary relative hidden lg:block">
         <Image src={BGlogin}
           alt="Image"
           className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
